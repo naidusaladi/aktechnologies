@@ -1,0 +1,148 @@
+.testimoninal-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.testimonial-left{
+    height: 540px;
+    width: 606px;
+    background-color: rgb(20, 20, 48);
+    color:white;
+    padding-right: 90px;
+    padding-left: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.testimonial-subhedding{
+    color: rgb(91, 91, 250);
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+
+.testimonial-hedding{
+    font-size: 50px;
+}
+
+
+.testimonial-text{
+    font-size: 20px;
+}
+
+@media (max-width:768px) {
+    .testimonial-hedding{
+        font-size: 40px;
+    }
+    
+    
+    .testimonial-text{
+        font-size: 15px;
+    }
+    
+    
+}
+.testimonial-left-card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.testimonial-icon{
+    font-size: 60px;
+    color:rgb(14, 240, 221);
+}
+
+@media (max-width:768px){
+    .testimonial-icon{
+        font-size: 50px;
+       
+    }
+}
+
+.testiomonial-counter{
+    font-size: 50px;
+}
+
+
+
+.testiomonial-undertext{
+    color:rgb(14, 240, 221);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .testiomonial-counter{
+        font-size: 36px;
+    } 
+    .testiomonial-undertext{
+       
+        
+        font-size: 15px;
+    }
+}
+
+.testimonial-right{
+    height: 420px;
+    width: 620px;
+    background-color:rgb(133, 129, 129);
+    margin-left: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    
+    
+
+}
+
+.testimonial-right h3{
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.testimonial-right h3 b{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+
+
+
+@media (max-width:1000px) {
+    .testimoninal-container{
+        flex-direction: column;
+    }
+    .testimonial-left{
+        width: 100%;
+    }
+    .testimonial-right{
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .testimonial-img{
+        width: 90%;
+    }
+}
+
+.quot{
+    font-size:  40px;
+    margin: 10px;
+    
+}
+
+.quot-r{
+    float: right;
+}

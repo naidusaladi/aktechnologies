@@ -1,0 +1,11 @@
+.carousel-img{
+    height:90vh;
+    width: 100%;
+}
+
+.carousel-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
